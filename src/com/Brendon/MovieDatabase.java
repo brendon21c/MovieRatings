@@ -1,12 +1,12 @@
-package com.clara;
+package com.Brendon;
 import java.sql.*;
 
 public class MovieDatabase {
 
     private static String DB_CONNECTION_URL = "jdbc:mysql://localhost:3306/";
     private static final String DB_NAME = "movies";
-    private static final String USER = "root";
-    private static final String PASS = "";
+    private static final String USER = "brendon";
+    private static final String PASS = "password";
 
     static Statement statement = null;
     static Connection conn = null;
